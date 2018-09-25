@@ -1,0 +1,2 @@
+1. ¿con las directivas se puede hacer un diseño atómico en Angular o cómo se maneja eso con Angular?
+

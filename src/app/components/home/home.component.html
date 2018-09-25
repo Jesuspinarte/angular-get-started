@@ -1,1 +1,6 @@
-<h1>Introducción a Angular</h1>
+<h1>{{ title | lowercase}}</h1>
+<p>{{ paragraph | uppercase }}</p>
+<p>{{ today | date:"dd/mm/yyyy" }}</p>
+<p>{{ users }}</p>
+<p>{{ users | json }}</p>
+<p>{{ courses | join: '-': '{}' }}</p>

@@ -9,6 +9,17 @@ import { Title} from "@angular/platform-browser";
 
 export class HomeComponent {
 
+  title: string = "Pipes en Angular";
+  paragraph: string = "Parágrafo";
+  today: Date = new Date();
+  users = ['Camilo', 'Andrea', 'Tesla'];
+  courses: Array<string> = [
+    'Fotografía',
+    'Guion',
+    'Programación',
+    'Hermenéutica'
+  ];
+
   public constructor(private titleService: Title) {
 
   }
